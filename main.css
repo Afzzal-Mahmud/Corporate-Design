@@ -23,3 +23,11 @@ body{
     background: url(images/bg-main.jpg);
     min-height: 50vh;
 }
+.grid__section{
+    color: rgb(4, 17, 22);
+}
+.card__img{
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 4px;
+}
