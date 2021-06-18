@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(4, 17, 22) !important;
+    color: white;
+}
+.cust__primary{
+    color: rgb(47, 76, 245);
+}
+.cust__white{
+    color: white;
+}
+.cust__black{
+    color: black;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
