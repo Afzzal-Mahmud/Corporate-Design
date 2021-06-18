@@ -19,3 +19,7 @@ body{
 .navbar-collapse{
     justify-content: flex-end;
 }
+.cust__bg{
+    background: url(images/bg-main.jpg);
+    min-height: 50vh;
+}
