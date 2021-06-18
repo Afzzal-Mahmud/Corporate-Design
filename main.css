@@ -13,6 +13,9 @@ body{
 .cust__white{
     color: white;
 }
+cust__sec__white{
+    color: rgb(235, 246, 255);
+}
 .cust__black{
     color: black;
 }
@@ -22,6 +25,9 @@ body{
 .cust__bg{
     background: url(images/bg-main.jpg);
     min-height: 50vh;
+}
+.cust__sec__bg__black{
+    background: rgb(90, 74, 146);
 }
 .grid__section{
     color: rgb(4, 17, 22);
