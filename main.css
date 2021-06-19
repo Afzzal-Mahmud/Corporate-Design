@@ -10,10 +10,13 @@ body{
 .cust__primary{
     color: rgb(90, 47, 245);
 }
+.cust__primary__nav{
+    color: rgb(242, 239, 255,0.95);
+}
 .cust__white{
     color: white;
 }
-cust__sec__white{
+.cust__sec__white{
     color: rgb(235, 246, 255);
 }
 .cust__black{
@@ -36,4 +39,27 @@ cust__sec__white{
     overflow: hidden;
     max-width: 100%;
     border-radius: 4px;
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .cust__md__col{
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+        margin: 0 auto;
+        padding: .5rem .5rem 1rem .5rem;
+    }
+    .cust__sub__head{
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .cust__col__md{
+        margin-bottom: 1.5em;
+    }
+
+    
 }
